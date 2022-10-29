@@ -5,28 +5,38 @@ import Contact from "./Contact";
 import Login from "./LogIn";
 import Services from "./Services";
 import App from "../App";
-
-const Header = () => {
+import logo from '../Assets/team..png'
+const Header = ({ Logo, GridOne, GridTwo, GridThree, GridFour }) => {
   return (
-    <div className="header">
-      <Link className="logo" to="./home">
-        Home
-      </Link>
-      <div className="bar">
-        <Link className="page" to="./products">
-          Products
+    <BrowserRouter>
+      <div className="header">
+        <Link className="logo" to="./home">
+          <img src={logo} alt="" />
         </Link>
-        <Link className="page" to="./services">
-          Services
-        </Link>
-        <Link className="page" to="./contact">
-          Contact
-        </Link>
-        <Link className="page" to="./login">
-          LogIn
-        </Link>
+        <div className="bar">
+          <Link className="page" to="./products">
+            {GridOne}
+          </Link>
+          <Link className="page" to="./services">
+            {GridTwo}
+          </Link>
+          <Link className="page" to="./contact">
+            {GridThree}
+          </Link>
+          <Link className="page" to="./login">
+            {GridFour}
+          </Link>
+        </div>
       </div>
-    </div>
+
+      <Routes>
+        <Route path="./App" element={<App />} />
+        <Route path="./products" element={<Products />} />
+        <Route path="./services" element={<Services />} />
+        <Route path="./contact" element={<Contact />} />
+        <Route path="./login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 

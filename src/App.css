@@ -1,4 +1,9 @@
-body {
+/* body {
+  background-size: 100%;
+} */
+.container{
+  height: 100vh;
+  width: 100%;
   background-image: url("./Assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
   background-size: 100%;
 }
@@ -82,4 +87,10 @@ body {
 .logo {
   color: white;
   text-decoration: none;
+}
+.pageTwoNews{
+  width: 465px;
+  height: 363px;
+  margin-top: 1136px;
+  margin-left: 140px;
 }
