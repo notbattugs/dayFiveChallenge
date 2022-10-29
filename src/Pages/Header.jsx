@@ -6,37 +6,27 @@ import Login from "./LogIn";
 import Services from "./Services";
 import App from "../App";
 
-const Header = ({ Logo, GridOne, GridTwo, GridThree, GridFour }) => {
+const Header = () => {
   return (
-    <BrowserRouter>
-      <div className="header">
-        <Link className="logo" to="./home">
-          {Logo}
+    <div className="header">
+      <Link className="logo" to="./home">
+        Home
+      </Link>
+      <div className="bar">
+        <Link className="page" to="./products">
+          Products
         </Link>
-        <div className="bar">
-          <Link className="page" to="./products">
-            {GridOne}
-          </Link>
-          <Link className="page" to="./services">
-            {GridTwo}
-          </Link>
-          <Link className="page" to="./contact">
-            {GridThree}
-          </Link>
-          <Link className="page" to="./login">
-            {GridFour}
-          </Link>
-        </div>
+        <Link className="page" to="./services">
+          Services
+        </Link>
+        <Link className="page" to="./contact">
+          Contact
+        </Link>
+        <Link className="page" to="./login">
+          LogIn
+        </Link>
       </div>
-
-      <Routes>
-        <Route path="./App" element={<App />} />
-        <Route path="./products" element={<Products />} />
-        <Route path="./services" element={<Services />} />
-        <Route path="./contact" element={<Contact />} />
-        <Route path="./login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    </div>
   );
 };
 
