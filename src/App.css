@@ -98,15 +98,16 @@
   width:1179px;
   height:705px;
   margin-top:150px;
-  margin-left:100px;
+  margin-left:1000px;
   border-radius:20px;
 }
 .eventOne{
   position: absolute;
-  background-color: black;
+  background-color: white;
+  border: 1px solid black;
   width: 263px;
   height: 130px;
   margin-top: 120px;
-  margin-left: 0px;
+  margin-left: -120px;
   border-radius: 10px;
 }
