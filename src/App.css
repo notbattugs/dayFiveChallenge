@@ -91,6 +91,22 @@
 .pageTwoNews{
   width: 465px;
   height: 363px;
-  margin-top: 1136px;
+  margin-top: 336px;
   margin-left: 140px;
+}
+.pageTwoNewsPic{
+  width:1179px;
+  height:705px;
+  margin-top:150px;
+  margin-left:100px;
+  border-radius:20px;
+}
+.eventOne{
+  position: absolute;
+  background-color: black;
+  width: 263px;
+  height: 130px;
+  margin-top: 120px;
+  margin-left: 0px;
+  border-radius: 10px;
 }

@@ -6,6 +6,7 @@ import Login from "./LogIn";
 import Services from "./Services";
 import App from "../App";
 import logo from '../Assets/team..png'
+
 const Header = ({ Logo, GridOne, GridTwo, GridThree, GridFour }) => {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ const Header = ({ Logo, GridOne, GridTwo, GridThree, GridFour }) => {
         <Link className="logo" to="./home">
           <img src={logo} alt="" />
         </Link>
+        
         <div className="bar">
           <Link className="page" to="./products">
             {GridOne}
