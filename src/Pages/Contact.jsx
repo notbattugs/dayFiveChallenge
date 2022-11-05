@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Products from "./Product";
 import { Link } from "react-router-dom";
 import Contact from "./Contact";
-import Login from "./LogIn";
+import Login from "./Login";
 import Services from "./Services";
 import App from "../App";
 

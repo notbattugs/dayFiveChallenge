@@ -1,6 +1,6 @@
-/* body {
-  background-size: 100%;
-} */
+body {
+ background-color: rgb(246,247,250);
+}
 .container{
   height: 100vh;
   width: 100%;
@@ -110,4 +110,102 @@
   margin-top: 120px;
   margin-left: -120px;
   border-radius: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.mainDiv{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.firstMain{
+  background-color: white;
+  width: 366px;
+  height: 374px;
+}
+.star{
+  margin-left: 10px;
+}
+.starDiv{
+  width: 180px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+   font-size: 18px;
+   font-weight: 540;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   justify-content: center;
+   margin-left: 20px;
+}
+.image{
+  margin-left: 35px;
+  margin-top:50px;
+}
+.textName{
+  font-weight: 600;
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  left: 115px;
+  top: 280px;
+}
+.secondMain{
+  width: 363px;
+  height: 440px;
+  background-color: white;
+  border-radius:30px;
+  margin-top:20px;
+}
+.img{
+  width: 363px;
+  display: flex;
+  border-radius: 30px 30px 0 0;
+  height: 140px;
+}
+.textDiv{
+  justify-content: center;
+  display: flex;
+}
+.mainText{
+  margin-top:25px;
+  margin-left: 30px;
+  font-weight: 540;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #25313C;
+  margin-right: 40px;
+}
+.SecondMainText{
+  font-weight: 540;
+  font-size: 14px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.secondMainDivText{
+  margin-left: 30px;
+  margin-top: 25px;
+  margin-right: 1px;
+}
+.imageTwo{
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+.lastText{
+  position: absolute;
+  left: 100px;
+  top: 750px;
+}
+.Text{
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #6D7D8B;
 }
