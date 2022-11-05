@@ -1,57 +1,26 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Products from "./Product";
 import { Link } from "react-router-dom";
-import Contact from "./Contact";
-import Login from "./Login";
-import Services from "./Services";
-import App from "../App";
-import logo from "../Assets/team..png";
 
-const Header = ({ Logo, GridOne, GridTwo, GridThree, GridFour ,GridFive}) => {
+const Header = () => {
   return (
-    <BrowserRouter>
-      <div className="header">
-        <Link className="logo" to="./home">
-          <img src={logo} alt="" />
-        </Link>
-
-        <div className="bar">
-          {/* <BrowserRouter>
-            <Routes>
-              <Route path="/Product" element={<Products />} />
-              <Route path="/Services" element={<Services />} />
-              <Route path="/Contact" element={<Contact />} />
-              <Route path="/Login" element={<Login />} />
-              <button>Get access</button>
-            </Routes>
-            <Header />
-          </BrowserRouter> */}
-            <Link className="page" to="./products">
-              {GridOne}
-            </Link>
-            <Link className="page" to="./services">
-              {GridTwo}
-            </Link>
-            <Link className="page" to="./contact">
-              {GridThree}
-            </Link>
-            <Link className="page" to="./login">
-              {GridFour}
-            </Link>
-            <Link className="button" to="./getAccess">
-              {GridFive}
-            </Link>
-        </div>
+    <div className="header">
+      <div className="Logo">
+        <Link className="logo" to={"./"}></Link>
       </div>
-
-      <Routes>
-        <Route path="./App" element={<App />} />
-        <Route path="./products" element={<Products />} />
-        <Route path="./services" element={<Services />} />
-        <Route path="./contact" element={<Contact />} />
-        <Route path="./login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+      <div className="Bar">
+        <Link className="App" to={"./Product"}>
+          Product
+        </Link>
+        <Link className="App" to={"./Services"}>
+          Services
+        </Link>
+        <Link className="App" to={"./Contacts"}>
+          Contacts
+        </Link>
+        <Link className="App" to={"./Login"}>
+          Login
+        </Link>
+      </div>
+    </div>
   );
 };
 

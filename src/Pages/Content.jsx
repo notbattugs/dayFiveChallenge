@@ -1,4 +1,8 @@
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { useState } from "react";
 const Content = ({ title, text, placeholder, button, type }) => {
+  const [isDisable, setIsDisable] = useState(true);
   return (
     <div className="content">
       <div className="title">{title}</div>
@@ -7,6 +11,7 @@ const Content = ({ title, text, placeholder, button, type }) => {
         <input type={type} className="input" placeholder={placeholder} />
         <button className="button">{button}</button>
       </div>
+      <div></div>
     </div>
   );
 };
