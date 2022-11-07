@@ -1,6 +1,6 @@
 import Stars from "./Star";
 const Teamprops4 = ({ name4, content4, profile, stars }) => {
-  return (
+  return (<>
     <div className="Textbox4">
       <div className="star">
         {stars.map((e) => {
@@ -17,6 +17,8 @@ const Teamprops4 = ({ name4, content4, profile, stars }) => {
         </div>
       </div>
     </div>
+    
+    </>
   );
 };
 export default Teamprops4;

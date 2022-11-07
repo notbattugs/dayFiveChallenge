@@ -1,11 +1,12 @@
 import "./App.css";
 import Product from "./Pages/Product";
-import Header from "./Pages/header";
+import Header from "./Pages/Header";
 import Contacts from "./Pages/Contacts";
 import Home from "./Pages/Home";
-import Login from "./Pages/Login";
+import Login from "./Pages/LogIn";
 import Footer from "./Pages/Footer";
 import Services from "./Pages/Services";
+import BlogPost from "./Pages/blogPost";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,9 +22,9 @@ function App() {
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/Services" element={<Services />} />
             <Route path="/Login" element={<Login />} />
+            <Route path='BlogPost' element={<BlogPost/>}></Route>
           </Routes>
 
-          <Footer instagram="Instagram" />
         </BrowserRouter>
       </div>
     </div>

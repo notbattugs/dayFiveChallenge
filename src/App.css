@@ -6,7 +6,7 @@ body {
   .Body {
   width: 100vw;
   height: 100vh;
-  background-image: url("./assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
+  background-image: url("./Assets/brooke-cagle-cb4Dv50LN1Y-unsplash\ 1.jpg");
   background-size: 100%;
   margin:0;
   
@@ -110,7 +110,7 @@ body {
     font-size: 18px;
     line-height: 28.11px;
     font-weight: 700;
-    background-image: url(./assets/team..png);
+    background-image: url("./Assets/team..png");
   }
   .Contacts{
     background-color: #3b3b3b;
@@ -123,9 +123,9 @@ body {
     height: 100vh;  
    }
    .Login{
-    background-color: pink;
-    width: 200vh;
-    height: 100vh;
+    background-color: white;
+    width: 100%;
+    height: 70vh;
    }
 .Container{
   width:100vw;
@@ -148,7 +148,7 @@ body {
   height: 700px;
 }
 .image1{
-  background-image: url("./assets/meet.png");
+  background-image: url("./Assets/meet.png");
   position: absolute;
   width: 660px;
   height: 705px;
@@ -183,7 +183,7 @@ body {
   font-weight: 10;
 }
 .image2{
-  background-image: url("./assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1.png");
+  background-image: url("./Assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1.png");
   position: absolute;
   width: 560px;
   height: 570px;
@@ -212,7 +212,7 @@ body {
   font-weight: 10;
 }
 .image3{
-  background-image: url("./assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1-2.png");
+  background-image: url("./Assets/brooke-cagle-JBwcenOuRCg-unsplash\ \(1\)\ 1-2.png");
   position: absolute;
   width: 560px;
   height: 570px;
@@ -258,7 +258,7 @@ body {
   height: 55px;
   border-radius: 50%;
   margin-left: 30px;
-  background: url(./assets/Ellipse.png);
+  background: url(./Assets/Ellipse.png);
 }
 .Name{
   font-size: large;
@@ -267,7 +267,7 @@ body {
   width: 200vh;
   margin-top: 100px;
   height: 400px;
-  background-color:#252B3B
+  background-color:#252B3B;
   
 }
 .Logo2{
@@ -287,10 +287,10 @@ body {
   font-size: 18px;
   line-height: 28.11px;
   font-weight: 700;
-  background-image: url(./assets/team..png);
+  background-image: url(./Assets/team..png);
 }
 .inst{
-  background-image: url("./assets/Instagram.png");
+  background-image: url("./Assets/Instagram.png");
   width:22px;
   height: 1px;
   margin-top: 30px;
