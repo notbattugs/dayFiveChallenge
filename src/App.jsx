@@ -22,9 +22,8 @@ function App() {
             <Route path="/Contacts" element={<Contacts />} />
             <Route path="/Services" element={<Services />} />
             <Route path="/Login" element={<Login />} />
-            <Route path='BlogPost' element={<BlogPost/>}></Route>
+            <Route path="BlogPost" element={<BlogPost />}></Route>
           </Routes>
-
         </BrowserRouter>
       </div>
     </div>
